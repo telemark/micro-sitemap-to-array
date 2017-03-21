@@ -53,7 +53,7 @@
   "dependencies": {
     "axios": "0.15.3",
     "marked": "0.3.6",
-    "micro": "7.2.0",
+    "micro": "7.2.1",
     "xml2js": "0.4.17"
   }
 }
