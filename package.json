@@ -1,7 +1,7 @@
 {
   "name": "micro-sitemap-to-array",
   "description": "Returns array from sitemap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "private": true,
   "author": {
