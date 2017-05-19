@@ -11,7 +11,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=7.7.3"
+    "node": ">=7.10.0"
   },
   "scripts": {
     "test": "standard && nsp check && ava",
@@ -38,7 +38,7 @@
   "homepage": "https://github.com/telemark/micro-sitemap-to-array",
   "now": {
     "alias": [
-      "sitemap.t-fk.win"
+      "sitemap.microservice.click"
     ],
     "type": "npm"
   },
@@ -48,7 +48,7 @@
     "nsp": "2.6.3",
     "nyc": "10.3.2",
     "standard": "10.0.2",
-    "test-listen": "1.0.1"
+    "test-listen": "1.0.2"
   },
   "dependencies": {
     "axios": "0.16.1",
