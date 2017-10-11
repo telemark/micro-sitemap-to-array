@@ -1,7 +1,7 @@
 {
   "name": "micro-sitemap-to-array",
   "description": "Returns array from sitemap",
-  "version": "1.1.10",
+  "version": "1.2.0",
   "license": "MIT",
   "private": true,
   "author": {
@@ -11,7 +11,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=8.1.4"
+    "node": ">=8.6.0"
   },
   "scripts": {
     "test": "standard && nsp check && ava",
@@ -20,6 +20,7 @@
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
     "start": "micro",
+    "dev": "micro-dev",
     "now-deploy": "npm test && now --npm && now alias"
   },
   "keywords": [
@@ -38,22 +39,23 @@
   "homepage": "https://github.com/telemark/micro-sitemap-to-array",
   "now": {
     "alias": [
-      "sitemap.t-fk.win"
+      "sitemap.microservice.click"
     ],
     "type": "npm"
   },
   "devDependencies": {
-    "ava": "0.19.1",
+    "ava": "0.22.0",
     "coveralls": "3.0.0",
+    "micro-dev": "1.2.3",
     "nsp": "2.8.1",
-    "nyc": "11.1.0",
+    "nyc": "11.2.1",
     "standard": "10.0.3",
     "test-listen": "1.0.2"
   },
   "dependencies": {
     "axios": "0.16.2",
-    "marked": "0.3.6",
+    "markdown-it": "8.4.0",
     "micro": "9.0.0",
-    "xml2js": "0.4.17"
+    "xml2js": "0.4.19"
   }
 }
