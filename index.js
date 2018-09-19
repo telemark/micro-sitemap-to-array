@@ -7,7 +7,7 @@ const { parse } = require('url')
 const getSitemap = require('./lib/get-sitemap')
 
 module.exports = async (request, response) => {
-  const {query} = await parse(request.url, true)
+  const { query } = await parse(request.url, true)
   const data = ['POST'].includes(request.method) ? await json(request) : query
 
   if (data.sitemap && data.sitemap.length > 0) {
