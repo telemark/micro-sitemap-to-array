@@ -1,0 +1,10 @@
+{
+  "name": "micro-sitemap-to-array",
+  "alias": [
+    "sitemap.tjeneste.win"
+  ],
+  "type": "docker",
+  "features": {
+    "cloud": "v2"
+  }
+}
