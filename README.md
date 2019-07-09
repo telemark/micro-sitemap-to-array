@@ -13,6 +13,14 @@ POST or GET a url to a sitemap.xml
 $ curl https://sitemap.t-fk.win?sitemap=https://www.telemark.no/sitemap.xml
 ```
 
+## Development
+
+You'll need the now-cli from ZEIT
+
+```
+$ npm run dev
+```
+
 ## License
 
 [MIT](LICENSE)

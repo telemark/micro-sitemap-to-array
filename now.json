@@ -2,6 +2,7 @@
 {
   "version": 2,
   "name": "micro-sitemap-to-array",
+  "scope": "telemark-dev",
   "alias": [
     "sitemap.tjeneste.win"
   ],
