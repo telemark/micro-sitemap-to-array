@@ -10,9 +10,11 @@
     "NODE_ENV": "production"
   },
   "builds": [
+    { "src": "/README.md", "use": "@now/md" },
     { "src": "/index.js", "use": "@now/node" }
   ],
   "routes": [
+    { "src": "/docs", "dest": "/README.html" },
     { "src": "/(.*)", "dest": "/index.js" }
   ]
 }
