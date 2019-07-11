@@ -13,6 +13,10 @@ POST or GET a url to a sitemap.xml
 $ curl https://sitemap.t-fk.win?sitemap=https://www.telemark.no/sitemap.xml
 ```
 
+```bash
+$ curl -H "Accept: application/json" -d '{"sitemap": "https://www.telemark.no/sitemap.xml"}' https://sitemap.t-fk.win
+```
+
 ## Development
 
 You'll need the now-cli from ZEIT
