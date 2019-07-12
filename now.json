@@ -15,6 +15,15 @@
   ],
   "routes": [
     { "src": "/docs", "dest": "/README.html" },
-    { "src": "/(.*)", "dest": "/index.js" }
+    {
+      "src": "/(.*)",
+      "dest": "/index.js",
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept",
+        "Access-Control-Allow-Methods": "GET, OPTIONS, POST",
+        "Access-Control-Max-Age": "3600"
+      }
+    }
   ]
 }
