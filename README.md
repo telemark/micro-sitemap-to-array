@@ -14,7 +14,7 @@ $ curl https://sitemap.tjeneste.win?sitemap=https://www.telemark.no/sitemap.xml
 ```
 
 ```bash
-$ curl -H "Accept: application/json" -d '{"sitemap": "https://www.telemark.no/sitemap.xml"}' https://sitemap.tjeneste.win
+$ curl -H "Content-Type: application/json" -d '{"sitemap": "https://www.telemark.no/sitemap.xml"}' https://sitemap.tjeneste.win
 ```
 
 ## Development
