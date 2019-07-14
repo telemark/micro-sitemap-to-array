@@ -7,7 +7,7 @@ module.exports = async (request, response) => {
     const arr = await getSitemap(data.sitemap)
     response.json(arr)
   } else {
-    response.writeHead(301, { Location: '/docs' })
+    response.writeHead(302, { Location: '/docs' })
     response.end()
   }
 }
