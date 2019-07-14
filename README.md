@@ -22,10 +22,10 @@ $ curl -H "Content-Type: application/json" -d '{"sitemap": "https://www.telemark
 You'll need the now-cli from ZEIT
 
 ```
-$ npm run dev
+$ now dev
 ```
 
-## Deploy to ZEIT/Now
+## Deploy to ZEIT/Now - Manual
 
 Change [now.json](now.json) to match your environment.
 
@@ -34,6 +34,12 @@ Run the deploy script.
 ```
 $ npm run deploy
 ```
+
+## Deploy to ZEIT/Now - Automatic
+
+Setup GitHub actions to match your environment.
+
+Do a release.
 
 ## License
 
